@@ -1,0 +1,29 @@
+.skeleton{
+  overflow: hidden;
+
+  .placeholder{
+    background: #eaeaea;
+    background: linear-gradient(to right, #f9f9f9, #f4f4f4, #f9f9f9 40%);
+    background-size: 200% 100%;
+    animation: waving 1.7s linear infinite;
+  }
+  .min-h-300{
+    min-height: 300px;
+  }
+  .min-h-350{
+    min-height: 350px;
+  }
+  .min-h-16{
+    min-height: 16px;
+  }
+}
+
+
+@keyframes waving {
+  from{
+    background-position: 300% 0;
+  }
+  to{
+    background-position: -300% 0;
+  }
+}
